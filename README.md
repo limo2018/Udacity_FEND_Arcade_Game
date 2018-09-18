@@ -6,18 +6,18 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 ## How To Play
--In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
--The player can use the Up, Down, Left and Right arrow keys to move around.
--Once the player collides with an enemy, the game is reset and the player moves back to the start square.
--Once the player reaches the water the game is won.
--[Play game here](https://github.com/limo2018/Udacity_FEND_Arcade_Game.git)
+- In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies.
+- The player can use the Up, Down, Left and Right arrow keys to move around.
+- Once the player collides with an enemy, the game is reset and the player moves back to the start square.
+- Once the player reaches the water the game is won.
+- [Play game here](https://github.com/limo2018/Udacity_FEND_Arcade_Game.git)
 
 ## Built With
--JavaScript
--CSS
--HTML5
+1. JavaScript
+2. CSS
+3. HTML5
 
 ## Credits
--Solittletime's Udcity Forum post - How to get the basic display to work: Arcade Game (P3)
+- Solittletime's Udcity Forum post - How to get the basic display to work: Arcade Game (P3)
  (https://github.com/solittletime/frontend-nanodegree-arcade-game)
--Matthew Cranford's Arcade Game Walkthrough blog post
+- Matthew Cranford's Arcade Game Walkthrough blog post
