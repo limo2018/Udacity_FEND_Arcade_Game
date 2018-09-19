@@ -39,7 +39,7 @@ Enemy.prototype.render = function() {
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
-var Player = function() {
+const Player = function() {
  this.sprite = 'images/char-boy.png';
  /*According to the drawImage mothod in engine.js,
  the player and bugs move in the blocks that width is 101 pixels and height is 83 pixels*/
@@ -91,7 +91,7 @@ const allEnemies = [
   new Enemy(-120, 230, 300),
   new Enemy(-220, 230, 300)];
 
-const player = new Player();
+let player = new Player();
 
 Player.prototype.handleInput = function(dt) {switch (dt) {
   /*According to the drawImage mothod in engine.js,
