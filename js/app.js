@@ -85,13 +85,13 @@ Player.prototype.render = function() {
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
-var allEnemies = [
+const allEnemies = [
   new Enemy(-200, 60, 400),
   new Enemy(-180, 140, 300),
   new Enemy(-120, 230, 300),
   new Enemy(-220, 230, 300)];
 
-var player = new Player();
+const player = new Player();
 
 Player.prototype.handleInput = function(dt) {switch (dt) {
   /*According to the drawImage mothod in engine.js,
